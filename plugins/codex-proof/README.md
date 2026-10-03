@@ -10,4 +10,4 @@ Prompt: “Use Codex Proof to reproduce this bug, add a regression test, fix it,
 
 Python 3 is required for the recorder. No dependencies are installed by this package. Read `skills/prove-bug/SKILL.md` for the workflow and commands. Evidence is local, reviewable output; it is not signed attestation or a guarantee of general correctness. Do not share private code or production data. Host discovery, temporary installation/enabling and app-server skill loading were verified with Codex CLI 0.151.0. Model-backed agent invocation was not tested.
 
-Not affiliated with or endorsed by OpenAI. License selection is pending; no license grant is included.
+Not affiliated with or endorsed by OpenAI. Licensed under [Apache-2.0](LICENSE).

@@ -27,5 +27,6 @@
         "brandColor": "#2768EE"
       }
     }
-  }
+  },
+  "license": "Apache-2.0"
 }

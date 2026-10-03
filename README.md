@@ -62,4 +62,4 @@ Capture scripts use installed Chrome and synthetic localhost data. The evidence 
 
 ## Independence and license
 
-Independent project; not affiliated with, sponsored by or endorsed by OpenAI. Codex names the compatible host. License selection is pending; no license grant is included. Nothing has been posted to social media or submitted to a contest by this project.
+Independent project; not affiliated with, sponsored by or endorsed by OpenAI. Codex names the compatible host. Licensed under [Apache-2.0](LICENSE). Nothing has been posted to social media or submitted to a contest by this project.
