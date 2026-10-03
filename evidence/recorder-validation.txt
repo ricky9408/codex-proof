@@ -1,0 +1,1 @@
+PASS: actual exit code/output preserved; real fail/pass paired; timeout and launch error rejected as reproduction.

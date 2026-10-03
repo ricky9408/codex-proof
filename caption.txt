@@ -1,0 +1,7 @@
+Entering OpenAI DevDay Side Quests for a chance to win.
+
+Built Codex Proof: an independent coding plugin that turns a bug report into a failing test, a fix, and before/after browser evidence.
+
+Don’t just show me the diff. Show me the bug disappearing.
+
+Synthetic local demo. #OpenAISideQuest

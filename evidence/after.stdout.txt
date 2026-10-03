@@ -1,0 +1,11 @@
+✔ Removing notebook preserves the remaining mug total ($18.00) (0.868458ms)
+✔ Removing last item yields an empty cart and zero total (0.071792ms)
+✔ Unknown item leaves total unchanged (0.056333ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 52.976125

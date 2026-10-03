@@ -1,0 +1,28 @@
+{
+  "phase": "before",
+  "command": [
+    "env",
+    "PROOF_VARIANT=before",
+    "node",
+    "--test",
+    "sample/cart.test.mjs"
+  ],
+  "cwd": "<project-root>",
+  "started_at": "2026-10-03T13:25:22.948914+00:00",
+  "finished_at": "2026-10-03T13:25:23.049481+00:00",
+  "exit_code": 1,
+  "status": "completed",
+  "sources": [
+    {
+      "path": "sample/cart.buggy.mjs",
+      "sha256": "c768e3dbe2ae150007bc83d7a42cf71dffb9daf503150357e53fa91691b2064e"
+    },
+    {
+      "path": "sample/cart.test.mjs",
+      "sha256": "937924d19c17865645a0fc6a880c0aa1470feea5e5c5bf665fb4b82ba2830fc1"
+    }
+  ],
+  "stdout_sha256": "63af21fc08f09bd5e0310fe548a5471ca1a43df88663ce3dabc4c239c6b8aa73",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "public_export_note": "Machine path redacted from cwd and stack traces; assertion results unchanged."
+}

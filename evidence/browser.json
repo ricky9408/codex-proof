@@ -1,0 +1,45 @@
+{
+  "browser": "Installed Google Chrome with Playwright; isolated temporary profile",
+  "version": "154.0.8037.93",
+  "fallbackReason": "Browser plugin/skill unavailable; user authorized local Chrome",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "flows": [
+    {
+      "phase": "before",
+      "url": "http://127.0.0.1:4173/sample/?variant=before",
+      "actions": [
+        "Add Notebook",
+        "Add Ceramic mug",
+        "Remove Notebook"
+      ],
+      "expected": "$18.00",
+      "observed": "$0.00",
+      "itemCount": 1,
+      "consoleErrors": []
+    },
+    {
+      "phase": "after",
+      "url": "http://127.0.0.1:4173/sample/?variant=after",
+      "actions": [
+        "Add Notebook",
+        "Add Ceramic mug",
+        "Remove Notebook"
+      ],
+      "expected": "$18.00",
+      "observed": "$18.00",
+      "itemCount": 1,
+      "consoleErrors": []
+    }
+  ],
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "observed": "$18.00",
+    "horizontalOverflow": false
+  }
+}

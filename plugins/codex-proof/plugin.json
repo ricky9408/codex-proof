@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "codex-proof",
+  "version": "0.1.0",
+  "description": "Turn a bug report into a failing regression test, a fix, and reviewable before/after evidence.",
+  "keywords": [
+    "coding",
+    "regression-tests",
+    "bug-reproduction",
+    "evidence"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Codex Proof",
+        "shortDescription": "Show the bug disappearing",
+        "longDescription": "A local workflow that reproduces reported behavior, preserves real test output, and packages browser evidence with explicit limits.",
+        "developerName": "Independent project",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Use Codex Proof to reproduce this bug, add a regression test, fix it, and show before/after evidence."
+        ],
+        "brandColor": "#2768EE"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "codex_cli_version": "0.151.0",
+  "isolation": "Temporary Codex home, removed afterward. No credentials copied and no model calls.",
+  "marketplace_add_exit_code": 0,
+  "plugin_add_exit_code": 0,
+  "plugin_id": "codex-proof@codex-proof-local",
+  "installed": true,
+  "enabled": true,
+  "app_server_skill_name": "codex-proof:prove-bug",
+  "skill_loading_errors": [],
+  "limitation": "Agent invocation through a model-backed host session was not tested.",
+  "public_export_note": "Summary of actual local check; original machine paths excluded."
+}

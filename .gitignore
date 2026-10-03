@@ -1,0 +1,6 @@
+node_modules/
+__pycache__/
+.DS_Store
+evidence/browser-video/
+evidence/demo-segment-*.mp4
+evidence/demo-concat.txt

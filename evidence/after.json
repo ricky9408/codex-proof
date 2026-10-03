@@ -1,0 +1,28 @@
+{
+  "phase": "after",
+  "command": [
+    "env",
+    "PROOF_VARIANT=after",
+    "node",
+    "--test",
+    "sample/cart.test.mjs"
+  ],
+  "cwd": "<project-root>",
+  "started_at": "2026-10-03T13:26:10.507084+00:00",
+  "finished_at": "2026-10-03T13:26:10.603320+00:00",
+  "exit_code": 0,
+  "status": "completed",
+  "sources": [
+    {
+      "path": "sample/cart.mjs",
+      "sha256": "7ae6f3022558b2f122ab75811334f2f4a8720ea43bd991aa4d25f191775f110c"
+    },
+    {
+      "path": "sample/cart.test.mjs",
+      "sha256": "937924d19c17865645a0fc6a880c0aa1470feea5e5c5bf665fb4b82ba2830fc1"
+    }
+  ],
+  "stdout_sha256": "a4a27cde0c82aab3448b8302e538969265250a187dc18010fdf2a242e04254fe",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "public_export_note": "Machine path redacted from cwd and stack traces; assertion results unchanged."
+}
